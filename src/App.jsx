@@ -1,19 +1,22 @@
 import React from 'react';
-import Analytics from './components/Analytics';
-import Cards from './components/Cards';
-import Footer from './components/Footer';
-import Hero from './components/Hero';
-import Navbar from './components/Navbar';
-import Newsletter from './components/Newsletter';
+import { Routes, Route } from 'react-router-dom';
+import Home from './pages/home';
+import Company from './pages/company';
+import Navbar from './components/Navbar';  
+import Footer from './components/Footer'; 
+import Contact from './pages/contact';
 
 function App() {
   return (
     <div>
       <Navbar />
-      <Hero />
-      <Analytics />
-      <Newsletter />
-      <Cards />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/company" element={<Company />} />
+        <Route path="/resources" element={<Company />}/>
+        <Route path="/about" element={<Company />}/>
+        <Route path="/contact"  element={<Home/>}  />
+      </Routes>
       <Footer />
     </div>
   );

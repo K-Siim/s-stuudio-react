@@ -1,6 +1,6 @@
 import React from 'react'
 import Hero from '../components/Hero'
-import Analytics from '../components/home/Analytics'
+import Analytics from '../components/Analytics'
 import Newsletter from '../components/Newsletter'
 import Cards from '../components/Cards'
 

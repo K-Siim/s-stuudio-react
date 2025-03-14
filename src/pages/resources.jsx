@@ -1,17 +1,21 @@
 import React from 'react'
-import Hero from '../components/Hero'
-import Analytics from '../components/Analytics'
+import Navbar from '../components/Navbar'
+import ResourceHero from '../components/resources/ResourceHero'
+import Guides from '../components/resources/Guides'
+import Blog from '../components/resources/Blog'
 import Newsletter from '../components/Newsletter'
-import Cards from '../components/Cards'
 
 const Resources = () => {
   return (
-    <>
-      <Hero />
-      <Analytics />
-      <Newsletter />
-      <Cards />
-    </>
+    <div className="bg-[#000300] min-h-screen">
+      <Navbar />
+      <div className="pt-16">
+        <ResourceHero />
+        <Guides />
+        <Blog />
+        <Newsletter />
+      </div>
+    </div>
   )
 }
 

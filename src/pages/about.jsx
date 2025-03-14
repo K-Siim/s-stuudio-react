@@ -1,17 +1,17 @@
 import React from 'react'
-import Hero from '../components/Hero'
-import Analytics from '../components/Analytics'
-import Newsletter from '../components/Newsletter'
-import Cards from '../components/Cards'
+import Navbar from '../components/Navbar'
+import Values from '../components/about/Values'
+import Team from '../components/about/Team'
+import Stats from '../components/about/Stats'
 
 const About = () => {
   return (
-    <>
-      <Hero />
-      <Analytics />
-      <Newsletter />
-      <Cards />
-    </>
+    <div className="bg-[#000300]">
+      <Navbar />
+      <Values />
+      <Team />
+      <Stats />
+    </div>
   )
 }
 

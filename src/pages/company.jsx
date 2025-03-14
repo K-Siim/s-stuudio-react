@@ -1,11 +1,17 @@
 import React from 'react'
-import Info from '../components/Info.jsx'
+import Navbar from '../components/Navbar'
+import Mission from '../components/company/Mission'
+import Timeline from '../components/company/Timeline'
+import Culture from '../components/company/Culture'
 
 const Company = () => {
   return (
-    <>
-      <Info />
-    </>
+    <div className="bg-[#000300]">
+      <Navbar />
+      <Mission />
+      <Timeline />
+      <Culture />
+    </div>
   )
 }
 

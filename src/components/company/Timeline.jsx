@@ -1,5 +1,23 @@
 import React from 'react'
 
+const milestones = [
+  {
+    year: '2020',
+    title: 'Company Founded',
+    description: 'Started with a vision to transform financial management for everyone.',
+  },
+  {
+    year: '2022',
+    title: 'Global Expansion',
+    description: 'Expanded our services to over 150 countries, reaching millions of users.',
+  },
+  {
+    year: '2024',
+    title: 'Innovation Leader',
+    description: 'Recognized as the leading financial technology platform in the industry.',
+  },
+]
+
 const Timeline = () => {
   return (
     <div className="bg-[#000300] py-24 sm:py-32">
@@ -30,22 +48,5 @@ const Timeline = () => {
   )
 }
 
-const milestones = [
-  {
-    year: '2020',
-    title: 'Company Founded',
-    description: 'Started with a vision to transform financial management for everyone.',
-  },
-  {
-    year: '2022',
-    title: 'Global Expansion',
-    description: 'Expanded our services to over 150 countries, reaching millions of users.',
-  },
-  {
-    year: '2024',
-    title: 'Innovation Leader',
-    description: 'Recognized as the leading financial technology platform in the industry.',
-  },
-]
 
 export default Timeline 
